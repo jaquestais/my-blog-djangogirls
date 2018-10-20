@@ -25,7 +25,10 @@ SECRET_KEY = '9sa#jpf809pk)w7kk!0z))ep$xpq+c*)5l5axr64mk)kl&6%%j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ ]
+ALLOWED_HOSTS = [
+    '7aqm6mm4.apps.lair.io',
+    'taisjaques.pythonanywhere.com'
+]
 
 
 # Application definition
@@ -121,4 +124,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-ALLOWED_HOSTS = ['7aqm6mm4.apps.lair.io']
+
